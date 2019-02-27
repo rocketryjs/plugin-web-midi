@@ -1,0 +1,35 @@
+{
+  "name": "@rocketry/plugin-web-midi",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Plugin for Rocketry that enables Web MIDI support",
+  "homepage": "https://github.com/rocketryjs/plugin-web-midi#readme",
+  "bugs": {
+    "url": "https://github.com/rocketryjs/plugin-web-midi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketryjs/plugin-web-midi.git"
+  },
+  "license": "MIT",
+  "author": "Evelyn Hathaway <npm@evelynhathaway.com> (https://evelynhathaway.com)",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "dependencies": {
+    "@rocketry/core": "file:../rocketry"
+  },
+  "devDependencies": {
+    "@types/webmidi": "^2.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
