@@ -12,7 +12,7 @@
     "url": "git+https://github.com/rocketryjs/plugin-web-midi.git"
   },
   "license": "MIT",
-  "author": "Evelyn Hathaway <npm@evelynhathaway.com> (https://evelynhathaway.com)",
+  "author": "Evelyn Hathaway <npm@evelyn.dev> (https://evelyn.dev)",
   "main": "./lib/index.js",
   "directories": {
     "lib": "./lib",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@types/webmidi": "^2.0.3",
-    "typescript": "^3.3.3333"
+    "typescript": "^3.5.3"
   },
   "engines": {
     "node": ">=8.0.0"
